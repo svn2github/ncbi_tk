@@ -80,6 +80,7 @@
 
 <br><br>
 <!--  the contents   -->
-    <!--#if expr="$HEADING" -->
-	    <h1><!--#echo  var="HEADING" --></h1>
-    <!--#endif  -->
+<!--#if expr="$HEADING" -->
+<h2><!--#echo  var="HEADING" --></h2>
+<p><br>
+<!--#endif  -->
