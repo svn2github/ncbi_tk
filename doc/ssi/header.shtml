@@ -17,7 +17,7 @@
  	    <tr><td><img src="http://www.ncbi.nlm.nih.gov/corehtml/spacer10.GIF" width="125" height="1" border="0">&nbsp;</td></tr>
 	    <tr><td>
 	      <p>
-<!--#if expr="$DOCUMENT_URI=/intranet\./" -->
+<!--#if expr="$SERVER_NAME=/intranet\./" -->
 		  <a href="/ieb/" class="GUTTER1">IEB Home</a><br>
 <!--#else  -->
 		  <a href="/IEB/" class="GUTTER1">IEB Home</a><br>
@@ -47,7 +47,7 @@
 		  </p>
           <p>
           <div class="GUTTER1">C Toolkit</div>
-<!--#if expr="$DOCUMENT_URI=/intranet\./" -->
+<!--#if expr="$SERVER_NAME=/intranet\./" -->
           <a href="http://inhouse.ncbi.nlm.nih.gov:6224/sdkdoc/INDEX.HTML" class="GUTTER2">Documentation</a><br>
           <a href="/ieb/ToolBox/C_DOC/lxr/source/"  class="GUTTER2">Source browser</a><br>
 <!--#else  -->
