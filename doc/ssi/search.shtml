@@ -1,0 +1,11 @@
+<!-- Begin Search Bar -->
+
+<table>
+<tr>
+    <td>
+    <form method=POST action="">
+	<input type=text name=textsearch  value="presently inactive" size=25>
+	<input type=submit value="Search Docs" name=textsubmit>
+	</form>
+	</td></tr>
+</table>

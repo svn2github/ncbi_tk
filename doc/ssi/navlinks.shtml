@@ -1,0 +1,43 @@
+<!-- Begin Navigation Links content -->
+
+<table cols=1 width="90%" border=0>
+<tr>
+    <td>
+	<font size=-1>
+	<a href="<!--#echo var="DOCROOT" -->/index.html"><b>NCBI C++ Toolkit Home</b></a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/source_browser.html#ref_SBBrowse"><b>Source Browser</b></a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/libs.html"><b>Library Reference</b></a>
+	</font>
+	</td></tr>
+<tr>
+    <td>
+	<font size=-1>
+	Intro &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/get_started.html">Get Started</a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/download.html">Download</a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/config.html">Configure/Build/Install</a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/projects.html">Project Management</a>
+	</font>
+	</td></tr>
+<tr>
+	<td>
+	<font size=-1>
+	<a href="<!--#echo var="DOCROOT" -->/faq.html">FAQ</a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/policies.html">Policies</a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/tools.html">Tools</a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/examples.html">Examples</a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/tests.html">Tests</a> &nbsp; | &nbsp;
+	<a href="<!--#echo var="DOCROOT" -->/links.html">Links</a>
+	</font>
+	</td></tr>
+<!--
+<tr>
+	<td>
+	<font size=-1>
+	<a href="<!--#echo var="DOCROOT" -->/"><span class=red>OLD</span> Doc Main</a> (open in a <a href="<!--#echo var="DOCROOT" -->/" target="_blank">new window)</a>
+	</font>
+	</td></tr>
+-->
+</table>
+
+<!--#include virtual="search.shtml" -->
