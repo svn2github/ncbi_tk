@@ -35,13 +35,19 @@
 <table border="0" width="608" cellspacing="0" cellpadding="0" bgcolor="#CCCCFF">
 <tr align="center">
 <td width="8" class="teal">&nbsp;</td>
+
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
-    <td width="150"><a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC" class="NAVBARBOLD">Public C++ Docs</a></td>
-    <td width="150"> <a href="<!--#echo var="DOCROOT" -->/index.html" class="NAVBARBOLD">In-House C++ Docs</a></td>
-    <td width="150"><a href="<!--#echo var="DOCROOT" -->/source_browser.html#ref_SBBrowse" class="NAVBARBOLD">Source Browser</a></td>
-    <td width="150"><a href="<!--#echo var="DOCROOT" -->/libs.html" class="NAVBARBOLD">Library Reference</a></td>
+    <td width="200">
+       <a href="http://intranet.ncbi.nlm.nih.gov/ieb/ToolBox/CPP_DOC/index.html" class="NAVBARBOLD">In-house</a>/
+       <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.html" class="NAVBARBOLD">Pubic</a>
+    </td>
+    <td width="200"><a href="<!--#echo var="DOCROOT" -->/source_browser.html" class="NAVBARBOLD">Source Browser</a></td>
+    <td width="200"><a href="<!--#echo var="DOCROOT" -->/libs.html" class="NAVBARBOLD">Library Reference</a></td>
 <!--#else  -->
-    <td width="200"><a href="<!--#echo var="DOCROOT" -->/index.html" class="NAVBARBOLD">C++ Toolkit Home</a></td>
+    <td width="200">
+       <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.html" class="NAVBARBOLD">Pubic</a>/
+       <a href="http://intranet.ncbi.nlm.nih.gov/ieb/ToolBox/CPP_DOC/index.html" class="NAVBARBOLD">In-house</a>
+    </td>
     <td width="200"><a href="<!--#echo var="DOCROOT" -->/source_browser.html" class="NAVBARBOLD">Source Browser</a></td>
     <td width="200"><a href="<!--#echo var="DOCROOT" -->/libs.html" class="NAVBARBOLD">Library Reference</a></td>
 <!--#endif  -->
