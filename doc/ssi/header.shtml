@@ -31,7 +31,7 @@
 		  <p>
 		  <a href="<!--#echo var="DOCROOT" -->/index.html" class="GUTTER1">C++ Toolkit</a><br>
 	      <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/" class="GUTTER2">Public docs</a><br>
-	      <a href="http://intranet.ncbi.nlm.nih.gov/ieb/ToolBox/CPP_DOC_TEST/index.html" class="GUTTER2">Internal docs</a><br>
+	      <a href="http://intranet.ncbi.nlm.nih.gov/ieb/ToolBox/CPP_DOC/index.html" class="GUTTER2">Internal docs</a><br>
 		  <a href="<!--#echo var="DOCROOT" -->/faq.html" class="GUTTER2">F.A.Q.</a><br>
 	      <a href="ftp://ncbi.nlm.nih.gov/toolbox/ncbi_tools++/CURRENT/" class="GUTTER2">Downloads</a><br>
 		  </p>
