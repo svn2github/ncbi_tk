@@ -4,11 +4,12 @@
    <title><!--#echo  var="TITLE" --></title>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
    <link rel="stylesheet" href="http://www.ncbi.nlm.nih.gov/corehtml/ncbi.css">
+   <link rel="stylesheet" href="<!--#echo var="DOCROOT" -->/doc.css">
 </head>
 
 <body bgcolor="#FFFFFF" background="http://www.ncbi.nlm.nih.gov/corehtml/bkgd.gif" leftmargin="10" topmargin="15" marginwidth="10" marginheight="15">
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<table border="0" width="800" cellspacing="0" cellpadding="0">
   <tr valign="top"> 
     <td width="140">
   	  <a href="http://www.ncbi.nlm.nih.gov"><img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0"></a>
@@ -44,4 +45,4 @@
 
 	</td>
     <td width="15"><img src="http://www.ncbi.nlm.nih.gov/corehtml/spacer10.GIF" width="15" height="1" border="0"></td>
-    <td width="*">
+    <td width="645">
