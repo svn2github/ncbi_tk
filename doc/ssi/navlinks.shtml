@@ -31,7 +31,8 @@
 	<a href="<!--#echo var="DOCROOT" -->/examples.html">Examples</a> &nbsp; | &nbsp;
 	<a href="<!--#echo var="DOCROOT" -->/tests.html">Tests</a> &nbsp; | &nbsp;
     <a href="<!--#echo var="DOCROOT" -->/links.html">Links</a> &nbsp; | &nbsp;
-    <a href="<!--#echo var="DOCROOT" -->/c_toolkit.html">C Toolkit</a>
+    <a href="<!--#echo var="DOCROOT" -->/c_toolkit.html">C Toolkit</a> &nbsp; | &nbsp;
+    <a href="<!--#echo var="DOCROOT" -->/license.html">(Free) License</a>
 	</font>
 	</td></tr>
 <!--
