@@ -3,9 +3,9 @@
 <table>
 <tr>
     <td>
-    <form method=POST action="">
-	<input type=text name=textsearch  value="presently inactive" size=25>
-	<input type=submit value="Search Docs" name=textsubmit>
+    <form method=POST action="<!--#echo var="DOCROOT" -->/search/search.cgi">
+	<input type=text name="keywords"  value="" size=30>
+	<input type=submit value="Search" name="textsubmit">
 	</form>
 	</td></tr>
 </table>
