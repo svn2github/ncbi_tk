@@ -64,6 +64,7 @@
 <td width="100"><font size="-1"><a href="<!--#echo var="DOCROOT" -->/projects.html" class="NAVBAR">Projects</a></font></td>
 <td width="100"><font size="-1"><a href="<!--#echo var="DOCROOT" -->/policies.html" class="NAVBAR">Policies</a></font></td>
 </tr>
+<tr align="center" class="shade"><td class="teal"></td></tr>
 <tr align="center" class="shade">
 <td class="teal">&nbsp;</td>
 <td><font size="-1"><a href="<!--#echo var="DOCROOT" -->/faq.html" class="NAVBAR">FAQ</a></font></td>
