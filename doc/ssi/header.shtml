@@ -45,6 +45,9 @@
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-announce" class="GUTTER2">Announces</a><br>
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp" class="GUTTER2">Generic</a><br>
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-cvs" class="GUTTER2">CVS logs</a><br>
+<!--#if expr="$SERVER_NAME=/intranet\./" -->
+	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-cvs-internal" class="GUTTER2">CVS internal logs</a><br>
+<!--#endif  -->
 		  </p>
           <p>
           <div class="GUTTER1">C Toolkit</div>
