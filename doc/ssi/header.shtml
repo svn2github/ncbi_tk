@@ -19,15 +19,17 @@
     <td width="130" colspan="2" align="LEFT" class="teal"><a href="http://www.ncbi.nlm.nih.gov" class="GUTTER"> <img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0"></a></td>
     <!--<a href="http://www.ncbi.nlm.nih.gov/IEB" class="GUTTER">IEB Home</a></td>-->
     <!--#if expr="$BARTITLE" -->
-	    <td width="478" align="CENTER" valign="CENTER"><h1> &nbsp;&nbsp;<!--#echo  var="BARTITLE" --></h1></td>
+	    <td width="478" align="CENTER" valign="CENTER"><h1><!--#echo  var="BARTITLE" --></h1></td>
     <!--#else  -->
-        <td width="478" align="CENTER" valign="CENTER"><h1> &nbsp;&nbsp;C++ Toolkit Documentation</h1></td>
+        <td width="478" align="CENTER" valign="CENTER"><h1>C++ Toolkit Documentation</h1></td>
     <!--#endif  -->
   </tr>
   <tr>
     <td width="8" class="teal">&nbsp;</td>
     <td width="122" align="CENTER" class="shade"><a href="http://www.ncbi.nlm.nih.gov/IEB"><i>IEB Home</i></a></td>
-    <td width="478" align="RIGHT"><font size="-1"><i><a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.html" class="NAVBAR">http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.html</a></i></font></td>
+<form method=POST action="<!--#echo var="DOCROOT" -->/search/search.cgi">
+    <td width="478" height="25" valign="TOP" align="RIGHT"><!--#include virtual="search.shtml" --></td>
+</form>
   </tr>
 </table>
 

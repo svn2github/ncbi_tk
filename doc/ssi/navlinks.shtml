@@ -38,7 +38,10 @@
 </table>
 <table cols=1 width="608" border=0>
 -->
-<tr>
-    <td><!--#include virtual="search.shtml" --></td></tr>
+  <tr><td>
+    <form method=POST action="<!--#echo var="DOCROOT" -->/search/search.cgi">
+    <!--#include virtual="search.shtml" -->
+    </form>
+  </td></tr>
 </table>
 <hr>
