@@ -1,8 +1,8 @@
 <!-- Begin Navigation Links content -->
 
-<table cols=1 width="95%" border=0>
+<table cols=1 width="608" border=0>
 <tr>
-    <td><hr color="#336699"></td></tr>
+    <td><hr color="#336699" width="95%"></td></tr>
 <tr>
     <td>
 	<font size=-1>
@@ -46,10 +46,10 @@
 	</font>
 	</td></tr>
 </table>
-<table cols=1 width="95%" border=0>
+<table cols=1 width="608" border=0>
 -->
 <tr>
     <td><!--#include virtual="search.shtml" --></td></tr>
 <tr>
-    <td><hr color="#336699"></td></tr>
+    <td><hr color="#336699" width="95%"></td></tr>
 </table>
