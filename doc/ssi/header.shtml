@@ -48,7 +48,7 @@
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-cvs-internal" class="GUTTER2">CVS internal logs</a><br>
 <!--#endif  -->
-	      <a href="http://www.ncbi.nlm.nih.gov/search/search.html" class="GUTTER2">Search</a><br>
+	      <a href="http://www.ncbi.nlm.nih.gov/mailman/search/" class="GUTTER2">Search</a><br>
 		  </p>
           <p>
           <div class="GUTTER1">C Toolkit</div>
