@@ -78,7 +78,7 @@
 </tr>
 </table>
 
-<br>
+<br><br>
 <!--  the contents   -->
     <!--#if expr="$HEADING" -->
 	    <h1><!--#echo  var="HEADING" --></h1>
