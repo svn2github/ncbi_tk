@@ -1,4 +1,4 @@
-<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
    <title><!--#echo  var="TITLE" --></title>
@@ -15,14 +15,15 @@
 <table border="0" width="800" cellspacing="0" cellpadding="0">
   <tr valign="top">
     <td width="140" align="left">
-      <img src="http://www.ncbi.nlm.nih.gov/corehtml/spacer10.GIF" width="140" height="0" border="0">
-  	  <a href="http://www.ncbi.nlm.nih.gov"><img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0"></a>
+      <img src="http://www.ncbi.nlm.nih.gov/corehtml/spacer10.GIF" width="140" height="0" border="0" alt="">
+  	  <a href="http://www.ncbi.nlm.nih.gov"><img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0" alt="NCBI Logo"></a>
 	  <table border="0" width="125" cellspacing="0" cellpadding="0">
         <tr><td width="125" height="30">&nbsp;</td></tr>
 	    <tr><td>
 	      <p>
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
 		  <a href="/ieb/" class="GUTTER1">IEB Home</a><br>
+		  <a href="http://www.ncbi.nlm.nih.gov/IEB/" class="GUTTER1">IEB <i>Public</i> Home</a><br>
 <!--#else  -->
 		  <a href="/IEB/" class="GUTTER1">IEB Home</a><br>
 <!--#endif  -->
@@ -39,9 +40,9 @@
 	      <a href="<!--#echo var="DOCROOT" -->/lxr/ident/"  class="GUTTER2">Ident search</a><br>
 	      <a href="<!--#echo var="DOCROOT" -->/lxr/search/" class="GUTTER2">Text search</a><br>
 	      <a href="<!--#echo var="DOCROOT" -->/lxr/find/"   class="GUTTER2">File search</a><br>
-	      <a href="<!--#echo var="DOCROOT" -->/lxr/source/" class="GUTTER2">Source tree</font></a><br>
-          <a href="<!--#echo var="DOCROOT" -->/docxx/index.html" class="GUTTER2">Index</font></a><br>
-          <a href="<!--#echo var="DOCROOT" -->/docxx/HIER.html"  class="GUTTER2">Class hierarchy</font></a><br>
+	      <a href="<!--#echo var="DOCROOT" -->/lxr/source/" class="GUTTER2">Source tree</a><br>
+          <a href="<!--#echo var="DOCROOT" -->/docxx/index.html" class="GUTTER2">Index</a><br>
+          <a href="<!--#echo var="DOCROOT" -->/docxx/HIER.html"  class="GUTTER2">Class hierarchy</a><br>
 		  </p>
 		  <p>
 		  <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/" class="GUTTER1">Mailing lists</a><br>
@@ -56,8 +57,6 @@
           <p>
           <div class="GUTTER1">C Toolkit</div>
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
-
-          <!--<a href="/IEB/ToolBox/SDKDOCS/INDEX.HTML" class="GUTTER2">Documentation <span class=red>wrong link internally!</span></a><br>-->
           <a href="http://inhouse.ncbi.nlm.nih.gov:6224/sdkdoc/INDEX.HTML" class="GUTTER2">Documentation</a><br>
           <a href="/ieb/ToolBox/C_DOC/lxr/source/"  class="GUTTER2">Source browser (1)</a><br>
 <!--#else  -->
