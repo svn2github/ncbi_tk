@@ -38,7 +38,7 @@
 	      <a href="<!--#echo var="DOCROOT" -->/lxr/find/"   class="GUTTER2">File search</a><br>
 	      <a href="<!--#echo var="DOCROOT" -->/lxr/source/" class="GUTTER2">Source tree</font></a><br>
           <a href="<!--#echo var="DOCROOT" -->/docxx/index.html" class="GUTTER2">Index</font></a><br>
-          <a href="<!--#echo var="DOCROOT" -->/docxx/HIER.html/" class="GUTTER2">Class hierarchy</font></a><br>
+          <a href="<!--#echo var="DOCROOT" -->/docxx/HIER.html"  class="GUTTER2">Class hierarchy</font></a><br>
 		  </p>
 		  <p>
 		  <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/" class="GUTTER1">Mailing lists</a><br>
