@@ -48,15 +48,15 @@
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-cvs-internal" class="GUTTER2">CVS internal logs</a><br>
 <!--#endif  -->
+	      <a href="http://www.ncbi.nlm.nih.gov/search/search.html" class="GUTTER2">Search</a><br>
 		  </p>
           <p>
           <div class="GUTTER1">C Toolkit</div>
-<!--#if expr="$SERVER_NAME=/intranet\./" -->
-          <a href="http://inhouse.ncbi.nlm.nih.gov:6224/sdkdoc/INDEX.HTML" class="GUTTER2">Documentation</a><br>
-          <a href="/ieb/ToolBox/C_DOC/lxr/source/"  class="GUTTER2">Source browser</a><br>
-<!--#else  -->
           <a href="/IEB/ToolBox/SDKDOCS/INDEX.HTML" class="GUTTER2">Documentation</a><br>
-          <a href="/IEB/ToolBox/C_DOC/lxr/source"   class="GUTTER2">Source browser</a><br>
+<!--#if expr="$SERVER_NAME=/intranet\./" -->
+          <a href="/ieb/ToolBox/C_DOC/lxr/source/"  class="GUTTER2">Source browser (1)</a><br>
+<!--#else  -->
+          <a href="/IEB/ToolBox/C_DOC/lxr/source"   class="GUTTER2">Source browser (2)</a><br>
 <!--#endif  -->
           <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/SB/hbr.html" class="GUTTER2">Source browser (2)</a><br>
           </p>
