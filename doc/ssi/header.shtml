@@ -12,9 +12,10 @@
 <table border="0" width="800" cellspacing="0" cellpadding="0">
   <tr valign="top"> 
     <td width="140" align="left">
+      <img src="http://www.ncbi.nlm.nih.gov/corehtml/spacer10.GIF" width="140" height="0" border="0">
   	  <a href="http://www.ncbi.nlm.nih.gov"><img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0"></a>
 	  <table border="0" width="125" cellspacing="0" cellpadding="0">
-        <tr><td width="125" height="30"></td></tr>
+        <tr><td width="125" height="30">&nbsp;</td></tr>
 	    <tr><td>
 	      <p>
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
