@@ -56,7 +56,7 @@
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
           <a href="/ieb/ToolBox/C_DOC/lxr/source/"  class="GUTTER2">Source browser (1)</a><br>
 <!--#else  -->
-          <a href="/IEB/ToolBox/C_DOC/lxr/source"   class="GUTTER2">Source browser (2)</a><br>
+          <a href="/IEB/ToolBox/C_DOC/lxr/source"   class="GUTTER2">Source browser (1)</a><br>
 <!--#endif  -->
           <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/SB/hbr.html" class="GUTTER2">Source browser (2)</a><br>
           </p>
