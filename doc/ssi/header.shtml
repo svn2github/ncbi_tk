@@ -81,6 +81,6 @@
 <br><br>
 <!--  the contents   -->
 <!--#if expr="$HEADING" -->
-<h2><!--#echo  var="HEADING" --></h2>
+<h1><!--#echo  var="HEADING" --></h1>
 <p><br>
 <!--#endif  -->
