@@ -32,6 +32,10 @@
 	      <a href="<!--#echo var="DOCROOT" -->/lxr/search/" class="GUTTER2">Text search</a><br>
 	      <a href="<!--#echo var="DOCROOT" -->/lxr/find/"   class="GUTTER2">File search</a><br>
 	      <a href="<!--#echo var="DOCROOT" -->/lxr/source/" class="GUTTER2">Source tree</font></a><br>
+	      <a href="<!--#echo var="DOCROOT" -->/lxr/source/" class="GUTTER2">Source tree</font></a><br>
+	      <a href="<!--#echo var="DOCROOT" -->/lxr/source/" class="GUTTER2">Source tree</font></a><br>
+          <a href="<!--#echo var="DOCROOT" -->/docxx/index.html" class="GUTTER2">Index</font></a><br>
+          <a href="<!--#echo var="DOCROOT" -->/docxx/HIER.html/" class="GUTTER2">Class hierarchy</font></a><br>
 		  </p>
 		  <p>
 		  <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/" class="GUTTER1">Mailing lists</a><br>
@@ -39,7 +43,16 @@
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp" class="GUTTER2">Generic</a><br>
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-cvs" class="GUTTER2">CVS logs</a><br>
 		  </p>
-
+          <p>
+          <div class="GUTTER1">C Toolkit</div>
+<!--#if expr="$DOCUMENT_URI=/intranet\./" -->
+          <a href="http://inhouse.ncbi.nlm.nih.gov:6224/sdkdoc/INDEX.HTML" class="GUTTER2">Documentation</a><br>
+          <a href="http://intranet.ncbi.nlm.nih.gov/ieb/ToolBox/C_DOC/lxr/source/" class="GUTTER2">Source browser</a><br>
+<!--#else  -->
+          <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/SDKDOCS/INDEX.HTML" class="GUTTER2">Documentation</a><br>
+          <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/C_DOC/lxr/source" class="GUTTER2">Source browser</a><br>
+<!--#endif  -->
+          </p>
 	    </td></tr>
 	  </table>
 
