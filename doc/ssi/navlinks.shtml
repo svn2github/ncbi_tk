@@ -2,7 +2,7 @@
 
 <table cols=1 width="608" border=0>
 <tr>
-    <td><hr color="#336699" width="95%"></td></tr>
+    <td><hr color="#336699"></td></tr>
 <tr>
     <td>
 	<font size=-1>
@@ -30,26 +30,16 @@
 	<a href="<!--#echo var="DOCROOT" -->/tools.html">Tools</a> &nbsp; | &nbsp;
 	<a href="<!--#echo var="DOCROOT" -->/examples.html">Examples</a> &nbsp; | &nbsp;
 	<a href="<!--#echo var="DOCROOT" -->/tests.html">Tests</a> &nbsp; | &nbsp;
-	<a href="<!--#echo var="DOCROOT" -->/links.html">Links</a> &nbsp; | &nbsp;
-<!--#if expr="$SERVER_NAME=/intranet\./" -->
-          <a href="http://inhouse.ncbi.nlm.nih.gov:6224/sdkdoc/INDEX.HTML">C Toolkit</a>
-<!--#else  -->
-          <a href="/IEB/ToolBox/SDKDOCS/INDEX.HTML">C Toolkit</a><br>
-<!--#endif  -->
+    <a href="<!--#echo var="DOCROOT" -->/links.html">Links</a> &nbsp; | &nbsp;
+    <a href="<!--#echo var="DOCROOT" -->/c_toolkit.html">C Toolkit</a>
 	</font>
 	</td></tr>
 <!--
-<tr>
-	<td>
-	<font size=-1>
-	<a href="<!--#echo var="DOCROOT" -->/"><span class=red>OLD</span> Doc Main</a> (open in a <a href="<!--#echo var="DOCROOT" -->/" target="_blank">new window)</a>
-	</font>
-	</td></tr>
 </table>
 <table cols=1 width="608" border=0>
 -->
 <tr>
     <td><!--#include virtual="search.shtml" --></td></tr>
 <tr>
-    <td><hr color="#336699" width="95%"></td></tr>
+    <td><hr color="#336699"></td></tr>
 </table>

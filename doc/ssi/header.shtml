@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en">
 <html>
 <head>
    <title><!--#echo  var="TITLE" --></title>
@@ -10,67 +10,69 @@
 
 </head>
 
-<body bgcolor="#FFFFFF" background="http://www.ncbi.nlm.nih.gov/corehtml/bkgd.gif" leftmargin="10" topmargin="15" marginwidth="10" marginheight="15">
 
-<table border="0" width="800" cellspacing="0" cellpadding="0">
-  <tr valign="top">
-    <td width="140" align="left">
-      <img src="http://www.ncbi.nlm.nih.gov/corehtml/spacer10.GIF" width="140" height="0" border="0" alt="">
-  	  <a href="http://www.ncbi.nlm.nih.gov"><img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0" alt="NCBI Logo"></a>
-	  <table border="0" width="125" cellspacing="0" cellpadding="0">
-        <tr><td width="125" height="30">&nbsp;</td></tr>
-	    <tr><td>
-	      <p>
+<body bgcolor="#FFFFFF" text="#000000" link="#CC6600" vlink="#CC6600">
+
+<!--  the header   -->
+<table border="0"  width="608" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="130" colspan="2" align="LEFT" class="teal"><a href="http://www.ncbi.nlm.nih.gov" class="GUTTER"> <img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0"></a></td>
+    <!--<a href="http://www.ncbi.nlm.nih.gov/IEB" class="GUTTER">IEB Home</a></td>-->
+    <!--#if expr="$BARTITLE" -->
+	    <td width="478" align="CENTER" valign="CENTER"><h1> &nbsp;&nbsp;<!--#echo  var="BARTITLE" --></h1></td>
+    <!--#else  -->
+        <td width="478" align="CENTER" valign="CENTER"><h1> &nbsp;&nbsp;C++ Toolkit Documentation</h1></td>
+    <!--#endif  -->
+  </tr>
+  <tr>
+    <td width="8" class="teal">&nbsp;</td>
+    <td width="122" align="CENTER" class="shade"><a href="http://www.ncbi.nlm.nih.gov/IEB"><i>IEB Home</i></a></td>
+    <td width="478" align="RIGHT"><font size="-1"><i><a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.html" class="NAVBAR">http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.html</a></i></font></td>
+  </tr>
+</table>
+
+<!--  the C++ Docs NAVBAR:  Top line -->
+<table border="0" width="608" cellspacing="0" cellpadding="0" bgcolor="#CCCCFF">
+<tr align="center">
+<td width="8" class="teal">&nbsp;</td>
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
-		  <a href="/ieb/" class="GUTTER1">IEB Home</a><br>
-		  <a href="http://www.ncbi.nlm.nih.gov/IEB/" class="GUTTER1">IEB <i>Public</i> Home</a><br>
+    <td width="150"><a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC" class="NAVBARBOLD">Public C++ Docs</a></td>
+    <td width="150"> <a href="<!--#echo var="DOCROOT" -->/index.html" class="NAVBARBOLD">In-House C++ Docs</a></td>
+    <td width="150"><a href="<!--#echo var="DOCROOT" -->/source_browser.html#ref_SBBrowse" class="NAVBARBOLD">Source Browser</a></td>
+    <td width="150"><a href="<!--#echo var="DOCROOT" -->/libs.html" class="NAVBARBOLD">Library Reference</a></td>
 <!--#else  -->
-		  <a href="/IEB/" class="GUTTER1">IEB Home</a><br>
+    <td width="200"><a href="<!--#echo var="DOCROOT" -->/index.html" class="NAVBARBOLD">C++ Toolkit Home</a></td>
+    <td width="200"><a href="<!--#echo var="DOCROOT" -->/source_browser.html" class="NAVBARBOLD">Source Browser</a></td>
+    <td width="200"><a href="<!--#echo var="DOCROOT" -->/libs.html" class="NAVBARBOLD">Library Reference</a></td>
 <!--#endif  -->
-		  </p>
-		  <p>
-		  <a href="<!--#echo var="DOCROOT" -->/index.html" class="GUTTER1">C++ Toolkit</a><br>
-	      <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/" class="GUTTER2">Public docs</a><br>
-	      <a href="http://intranet.ncbi.nlm.nih.gov/ieb/ToolBox/CPP_DOC/index.html" class="GUTTER2">Internal docs</a><br>
-		  <a href="<!--#echo var="DOCROOT" -->/faq.html" class="GUTTER2">F.A.Q.</a><br>
-	      <a href="ftp://ncbi.nlm.nih.gov/toolbox/ncbi_tools++/CURRENT/" class="GUTTER2">Downloads</a><br>
-		  </p>
-		  <p>
-		  <div class="GUTTER1">Source Browser</div>
-	      <a href="<!--#echo var="DOCROOT" -->/lxr/ident/"  class="GUTTER2">Ident search</a><br>
-	      <a href="<!--#echo var="DOCROOT" -->/lxr/search/" class="GUTTER2">Text search</a><br>
-	      <a href="<!--#echo var="DOCROOT" -->/lxr/find/"   class="GUTTER2">File search</a><br>
-	      <a href="<!--#echo var="DOCROOT" -->/lxr/source/" class="GUTTER2">Source tree</a><br>
-          <a href="<!--#echo var="DOCROOT" -->/docxx/index.html" class="GUTTER2">Index</a><br>
-          <a href="<!--#echo var="DOCROOT" -->/docxx/HIER.html"  class="GUTTER2">Class hierarchy</a><br>
-		  </p>
-		  <p>
-		  <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/" class="GUTTER1">Mailing lists</a><br>
-	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-announce" class="GUTTER2">Announces</a><br>
-	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp" class="GUTTER2">Generic</a><br>
-	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-cvs" class="GUTTER2">CVS logs</a><br>
-<!--#if expr="$SERVER_NAME=/intranet\./" -->
-	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-cvs-internal" class="GUTTER2">CVS internal logs</a><br>
-<!--#endif  -->
-	      <a href="http://www.ncbi.nlm.nih.gov/mailman/search/" class="GUTTER2">Search</a><br>
-		  </p>
-          <p>
-          <div class="GUTTER1">C Toolkit</div>
-<!--#if expr="$SERVER_NAME=/intranet\./" -->
-          <a href="http://inhouse.ncbi.nlm.nih.gov:6224/sdkdoc/INDEX.HTML" class="GUTTER2">Documentation</a><br>
-          <a href="/ieb/ToolBox/C_DOC/lxr/source/"  class="GUTTER2">Source browser (1)</a><br>
-<!--#else  -->
-          <a href="/IEB/ToolBox/SDKDOCS/INDEX.HTML"   class="GUTTER2">Documentation</a><br>
-          <a href="/IEB/ToolBox/C_DOC/lxr/source"   class="GUTTER2">Source browser (1)</a><br>
-<!--#endif  -->
-          <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/SB/hbr.html" class="GUTTER2">Source browser (2)</a><br>
-          </p>
-	    </td></tr>
-	  </table>
+</tr>
+</table>
 
-	</td>
-    <td width="660">
+<!--  the C++ Docs NAVBAR:  Remaining lines -->
+<table border="0" width="608" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" >
+<tr align="center" class="shade">
+<td width="8" class="teal">&nbsp;</td>
+<!--<td width="85"><font size="-1"><span class="NAVBAR">Intro</span></font></td>-->
+<td width="100"><font size="-1"><a href="<!--#echo var="DOCROOT" -->/get_started.html" class="NAVBAR">Get Started</a></font></td>
+<td width="100"><font size="-1"><a href="<!--#echo var="DOCROOT" -->/download.html" class="NAVBAR">Download</a></font></td>
+<td width="100"><font size="-1"><a href="<!--#echo var="DOCROOT" -->/config.html" class="NAVBAR">Configuration</a></font></td>
+<td width="100"><font size="-1"><a href="<!--#echo var="DOCROOT" -->/makefiles.html" class="NAVBAR">Makefiles</a></font></td>
+<td width="100"><font size="-1"><a href="<!--#echo var="DOCROOT" -->/projects.html" class="NAVBAR">Projects</a></font></td>
+<td width="100"><font size="-1"><a href="<!--#echo var="DOCROOT" -->/policies.html" class="NAVBAR">Policies</a></font></td>
+</tr>
+<tr align="center" class="shade">
+<td class="teal">&nbsp;</td>
+<td><font size="-1"><a href="<!--#echo var="DOCROOT" -->/faq.html" class="NAVBAR">FAQ</a></font></td>
+<td><font size="-1"><a href="<!--#echo var="DOCROOT" -->/tools.html" class="NAVBAR">Tools</a></font></td>
+<td><font size="-1"><a href="<!--#echo var="DOCROOT" -->/examples.html" class="NAVBAR">Examples</a></font></td>
+<td><font size="-1"><a href="<!--#echo var="DOCROOT" -->/tests.html" class="NAVBAR">Tests</a></font></td>
+<td><font size="-1"><a href="<!--#echo var="DOCROOT" -->/links.html" class="NAVBAR">Links</a></font></td>
+<td><font size="-1"><a href="<!--#echo var="DOCROOT" -->/c_toolkit.html" class="NAVBAR">C Toolkit</a></font></td>
+</tr>
+</table>
 
-<!--#if expr="$HEADING" -->
-	<h1> <!--#echo  var="HEADING" -->&nbsp;<font size=-4><span class=nava>[<a href="<!--#echo var="DOCROOT" -->/index.html">Home</a>]</span></font></h1>
-<!--#endif  -->
+<br>
+<!--  the contents   -->
+    <!--#if expr="$HEADING" -->
+	    <h1><!--#echo  var="HEADING" --></h1>
+    <!--#endif  -->
