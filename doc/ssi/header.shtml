@@ -8,7 +8,7 @@
 
 <body bgcolor="#FFFFFF" background="http://www.ncbi.nlm.nih.gov/corehtml/bkgd.gif" leftmargin="10" topmargin="15" marginwidth="10" marginheight="15">
 
-<table border="0" width="600" cellspacing="0" cellpadding="0">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
   <tr valign="top"> 
     <td width="140">
   	  <a href="http://www.ncbi.nlm.nih.gov"><img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0"></a>
