@@ -11,10 +11,10 @@
 
 <table border="0" width="800" cellspacing="0" cellpadding="0">
   <tr valign="top"> 
-    <td width="140">
+    <td width="140" align="left">
   	  <a href="http://www.ncbi.nlm.nih.gov"><img src="http://www.ncbi.nlm.nih.gov/corehtml/left.GIF" width="130" height="45" border="0"></a>
-	  <table border="0" width="130" cellspacing="0" cellpadding="0">
- 	    <tr><td><img src="http://www.ncbi.nlm.nih.gov/corehtml/spacer10.GIF" width="125" height="1" border="0">&nbsp;</td></tr>
+	  <table border="0" width="125" cellspacing="0" cellpadding="0">
+        <tr><td width="125" height="30"></td></tr>
 	    <tr><td>
 	      <p>
 <!--#if expr="$SERVER_NAME=/intranet\./" -->
@@ -60,5 +60,5 @@
 	  </table>
 
 	</td>
-    <td width="15"></td>
-    <td width="645">
+    <td width="660">
+
