@@ -19,18 +19,18 @@
 		  <a href="/IEB/" class="GUTTER1">IEB Home</a><br>
 		  </p>
 		  <p>
-		  <a href="index.shtml" class="GUTTER1">NCBI C++ Toolkit</a><br>
-	      <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.shtml" class="GUTTER2">Public WWW docs</a><br>
-	      <a href="http://intranet.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.shtml" class="GUTTER2">Internal WWW docs</a><br>
-		  <a href="faq.shtml" class="GUTTER2">F.A.Q.</a><br>
+		  <a href="<!--#echo var="DOCROOT" -->/index.html" class="GUTTER1">NCBI C++ Toolkit</a><br>
+	      <a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/" class="GUTTER2">Public WWW docs</a><br>
+	      <a href="http://intranet.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/" class="GUTTER2">Internal WWW docs</a><br>
+		  <a href="<!--#echo var="DOCROOT" -->/faq.html" class="GUTTER2">F.A.Q.</a><br>
 	      <a href="ftp://ncbi.nlm.nih.gov/toolbox/ncbi_tools++/CURRENT/" class="GUTTER2">Source snapshots</a><br>
 		  </p>
 		  <p>
 		  <div class="GUTTER1">Source Browser</div>
-	      <a href="lxr/source/" class="GUTTER2">Source navigation</font></a><br>
-	      <a href="lxr/ident/"  class="GUTTER2">Identifier search</a><br>
-	      <a href="lxr/search/" class="GUTTER2">reetext search</a><br>
-	      <a href="lxr/find/"   class="GUTTER2">File search</a><br>
+	      <a href="<!--#echo var="DOCROOT" -->/lxr/source/" class="GUTTER2">Source navigation</font></a><br>
+	      <a href="<!--#echo var="DOCROOT" -->/lxr/ident/"  class="GUTTER2">Identifier search</a><br>
+	      <a href="<!--#echo var="DOCROOT" -->/lxr/search/" class="GUTTER2">reetext search</a><br>
+	      <a href="<!--#echo var="DOCROOT" -->/lxr/find/"   class="GUTTER2">File search</a><br>
 		  </p>
 		  <p>
 		  <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/" class="GUTTER1">Mailing lists</a><br>
@@ -38,7 +38,7 @@
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-cvs" class="GUTTER2">CVS logs</a><br>
 	      <a href="http://www.ncbi.nlm.nih.gov/mailman/listinfo/cpp-announce" class="GUTTER2">Announces</a><br>
 		  </p>
-	      <a href="" class="GUTTER2"></a><br>
+
 	    </td></tr>
 	  </table>
 
