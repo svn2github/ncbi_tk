@@ -36,7 +36,7 @@
 <tr align="center">
 <td width="8" class="teal">&nbsp;</td>
 
-<!--#if expr="$SERVER_NAME=/intranet\./" -->
+<!--#if expr="$SERVER_PORT=6224" -->
     <td width="200">
        <a href="http://intranet.ncbi.nlm.nih.gov/ieb/ToolBox/CPP_DOC/index.html" class="NAVBARBOLD">In-house</a>&nbsp;/&nbsp;<a href="http://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/index.html" class="NAVBARBOLD">Public</a>
     </td>
